@@ -4,14 +4,14 @@ import React from 'react';
 
 const User: React.FC = () => {
     const router = useRouter();
-    const {id} = router.query;
+    const {uid} = router.query;
 
     return (
     <div>
         <Head>
             <title>User</title>
         </Head>
-        Tôi là người thứ: {id}
+        Tôi là người thứ: {uid}
      
     </div>
     )
